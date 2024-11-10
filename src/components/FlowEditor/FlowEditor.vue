@@ -2,9 +2,9 @@
 import '@vue-flow/core/dist/style.css'
 import '@vue-flow/core/dist/theme-default.css'
 
-import { Log,Resting, Shuffle } from '@icon-park/vue-next'
+import { Log, Resting, Shuffle } from '@icon-park/vue-next'
 import { Background, Controls, MiniMap } from '@vue-flow/additional-components'
-import { isNode, Panel, useVueFlow,VueFlow } from '@vue-flow/core'
+import { isNode, Panel, useVueFlow, VueFlow } from '@vue-flow/core'
 import { ref } from 'vue'
 
 import { initialElements } from './initial-elements'

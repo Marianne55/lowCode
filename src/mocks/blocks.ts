@@ -52,13 +52,12 @@ export const blocks: BlockInfo[] = [
     label: '视图',
     props: {
       fields: {
-        'id': {
-          type: 'text',
-        },
+        id: {
+          type: 'text'
+        }
       },
       fieldProps: [],
-      data: [],
-
+      data: []
     }
   },
   {

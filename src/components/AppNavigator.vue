@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Bug,Data, LayoutThree, Lightning, Share } from '@icon-park/vue-next'
+import { Bug, Data, LayoutThree, Lightning, Share } from '@icon-park/vue-next'
 import { computed, defineComponent, h } from 'vue'
 import { useRoute } from 'vue-router'
 

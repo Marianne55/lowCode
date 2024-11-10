@@ -54,6 +54,7 @@ const editable = inject('editable', true)
           <delete />
         </div>
       </div>
+      <div></div>
     </div>
   </div>
 </template>

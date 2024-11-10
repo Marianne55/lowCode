@@ -8,7 +8,6 @@ export const useAppEditorStore = defineStore('appEditor', () => {
   const currentBlockId = ref<string | null>(null)
   const blocks = ref(blocksData)
 
-
   function selectBlock(id: string) {
     currentBlockId.value = id
   }

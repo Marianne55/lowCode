@@ -1,6 +1,6 @@
-import type { Ref } from "vue"
+import type { Ref } from 'vue'
 
-import { useAppEditorStore } from "@/stores/appEditor"
+import { useAppEditorStore } from '@/stores/appEditor'
 
 export const useClickOutside = (domRef: Ref<HTMLElement | null>) => {
   const appEditorStore = useAppEditorStore()
@@ -17,5 +17,4 @@ export const useClickOutside = (domRef: Ref<HTMLElement | null>) => {
   return () => {
     document.removeEventListener('click', handleClickOutside)
   }
-
 }
